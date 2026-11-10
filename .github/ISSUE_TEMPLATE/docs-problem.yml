@@ -1,0 +1,28 @@
+name: Problem with the guide
+description: Something in the Chaos Conductor Guide is wrong, unclear or missing.
+title: "Docs: "
+labels: ["docs"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The guide page this is about (filled in automatically from the "Report a problem" link).
+      placeholder: https://jacobarose.com/demos/chaos-conductor/docs/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong, unclear or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to find?
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      description: Optional, e.g. Safari on iPhone 15.

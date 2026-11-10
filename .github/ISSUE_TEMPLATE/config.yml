@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the guide
+    url: https://jacobarose.com/demos/chaos-conductor/docs/
+    about: Tutorials, how-to guides and reference for Chaos Conductor.
+  - name: Open the app
+    url: https://jacobarose.com/demos/chaos-conductor/
+    about: Try Chaos Conductor in your browser.
